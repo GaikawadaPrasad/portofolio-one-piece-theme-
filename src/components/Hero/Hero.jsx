@@ -133,11 +133,15 @@ function WantedPoster({ bounty }) {
               }}
             >
               {personalInfo.photo ? (
-                <img
-                  src={personalInfo.photo}
-                  alt={personalInfo.name}
-                  className="w-full h-full object-cover"
-                />
+                <div className="relative w-full h-full bg-[#E5D7BF]">
+                  <img
+                    src={personalInfo.photo}
+                    alt={personalInfo.name}
+                    className="w-full h-full object-cover object-top contrast-110 sepia-[0.2]"
+                  />
+                  {/* Subtle vintage manga tone */}
+                  <div className="absolute inset-0 bg-amber-950/10 mix-blend-multiply pointer-events-none" />
+                </div>
               ) : (
                 <PiratePortraitSVG />
               )}

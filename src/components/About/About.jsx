@@ -133,8 +133,16 @@ export default function About() {
 
               {/* Vivre Card Header */}
               <div className="text-center mt-3 mb-4">
-                <div className="mx-auto w-24 h-24 rounded-full bg-amber-950/10 border-4 border-amber-950/30 flex items-center justify-center text-amber-950 shadow-inner mb-3">
-                  <Anchor size={42} />
+                <div className="mx-auto w-24 h-24 rounded-full bg-amber-950/10 border-4 border-amber-950/30 flex items-center justify-center text-amber-950 shadow-inner mb-3 overflow-hidden">
+                  {personalInfo.photo ? (
+                    <img
+                      src={personalInfo.photo}
+                      alt={personalInfo.name}
+                      className="w-full h-full object-cover object-top contrast-110 sepia-[0.2]"
+                    />
+                  ) : (
+                    <Anchor size={42} />
+                  )}
                 </div>
                 <p className="text-amber-950 font-mono text-xs font-bold uppercase tracking-[0.25em]">
                   {personalInfo.epithet}

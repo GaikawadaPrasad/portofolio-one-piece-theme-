@@ -31,7 +31,7 @@ export const personalInfo = {
       color: "from-yellow-400 to-amber-500",
     },
   },
-  photo: null,
+  photo: "/prasad-portrait.jpg",
 };
 
 export const skills = [
@@ -119,20 +119,6 @@ export const projects = [
     liveUrl: "https://github.com/GaikawadaPrasad",
     githubUrl: "https://github.com/GaikawadaPrasad",
     color: "from-amber-600 to-red-700",
-  },
-  {
-    title: "FinBridge - Enterprise Core Banking",
-    island: "Water 7",
-    sector: "Grand Financial Harbor",
-    magneticLock: "Transactional Ledger Lock",
-    islandType: "enterprise",
-    category: "fullstack",
-    badge: "Enterprise Java Platform",
-    description: "Multi-tier enterprise core banking platform featuring double-entry ledger bookkeeping, transactional integrity, customer account management, and role-based access control built on Spring Boot microservices and React frontend.",
-    tech: ["Java", "Spring Boot", "React.js", "PostgreSQL", "REST APIs", "JWT Auth", "Docker"],
-    liveUrl: "https://github.com/GaikawadaPrasad",
-    githubUrl: "https://github.com/GaikawadaPrasad",
-    color: "from-blue-700 to-slate-900",
   },
   {
     title: "Biometric Vital Health Monitor",
