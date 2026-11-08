@@ -2,11 +2,16 @@
 
 > **Full-Stack Architect & IoT Engineer** • Sailing across the Grand Line of Web & Embedded Systems
 
-[![Live Demo](https://img.shields.io/badge/Status-Active-brightgreen)](#)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?logo=github)](https://GaikawadaPrasad.github.io/portofolio-one-piece-theme-/)
 [![Vite](https://img.shields.io/badge/Vite-6.4-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.11-FF0055?logo=framer&logoColor=white)](https://www.framer.com/motion/)
+
+---
+
+## 🌐 Live URL
+👉 **[https://GaikawadaPrasad.github.io/portofolio-one-piece-theme-/](https://GaikawadaPrasad.github.io/portofolio-one-piece-theme-/)**
 
 ---
 

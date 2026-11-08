@@ -1,5 +1,6 @@
 // Portfolio data — Prasad Gaikawada (One Piece Anime Themed Edition)
 // 100% English, Zero Emojis
+import portraitImg from '../assets/prasad-portrait.jpg';
 
 export const personalInfo = {
   name: "Prasad Gaikawada",
@@ -31,7 +32,7 @@ export const personalInfo = {
       color: "from-yellow-400 to-amber-500",
     },
   },
-  photo: "/prasad-portrait.jpg",
+  photo: portraitImg,
 };
 
 export const skills = [
